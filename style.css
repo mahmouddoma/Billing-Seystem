@@ -1,0 +1,70 @@
+/* Global Styles */
+body {
+  background-color: #1d2630;
+  color: #fff; /* Apply white color to all text */
+}
+
+.container {
+  margin-top: 50px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.btn {
+  margin-top: 10px;
+}
+
+/* Table Styles */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.table th,
+.table td {
+  padding: 8px;
+  text-align: center; /* Center align table cells */
+  border-bottom: 1px solid #ddd;
+}
+
+/* Total Cost */
+#total-cost {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .col-md-6 {
+    width: 100%;
+  }
+}
+
+/* Print Styles */
+@media print {
+  body * {
+    visibility: visible !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+}
+.container {
+  margin-top: 50px;
+}
+
+.invoice-table {
+  margin-top: 20px;
+}
+
+.total-cost {
+  margin-top: 20px;
+}
